@@ -12,9 +12,9 @@ def email_message(subject , body , to):
     msg['body'] = body
 
 
-    user = "lucifer.ai.288@gmail.com"
+    user = "your-email"
     msg['from'] = user
-    password = "mfbjcjevynjezpaz"
+    password = "mail:app_password"
 
     server = smtplib.SMTP("smtp.gmail.com",587)
     server.starttls()
